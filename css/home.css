@@ -390,6 +390,9 @@ fieldset{
   .pie-de-pagina h6{
     font-size: 20px;
   }
+  .formulario-1 {
+    align-items: center;
+  }
 }
 
 
@@ -604,6 +607,5 @@ fieldset{
     color: black;
   }
 
-  
 }
 
