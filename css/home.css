@@ -266,6 +266,10 @@ h2{
   color: #360D59;
 }
 
+.contacto-seccion1-derecha {
+  justify-content: space-between;
+}
+
 .contacto-seccion1-izquierda p {
   font-size: 30px;
 }
