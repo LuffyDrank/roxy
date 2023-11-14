@@ -223,7 +223,7 @@ h2{
 }
 
 .areas-imagenes {
-  height: 400px;
+  height: 30vw;
   margin: 20px;
   border-radius: 20px;
 }
@@ -521,8 +521,11 @@ fieldset{
     flex-direction: column;
   }
 
+
+
   .areas-imagenes {
     margin: 0px 0px 30px 0px;
+    height: 400px;
   }
 
   .contacto-seccion1-derecha {
@@ -600,5 +603,7 @@ fieldset{
   .formulario h3 {
     color: black;
   }
+
+  
 }
 
