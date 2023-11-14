@@ -22,6 +22,11 @@ body{
 }
 
 
+.separacion {
+  height: 10px;
+  background-color: #33015A;
+}
+
 .Menu {
   display: flex;
   justify-content: space-between;
@@ -220,6 +225,7 @@ h2{
 .areas-imagenes {
   height: 400px;
   margin: 20px;
+  border-radius: 20px;
 }
 
 .area-imagenes-margen {
@@ -281,9 +287,18 @@ h2{
   padding-bottom: 50px;
 }
 
+.formulario-1 {
+  display: flex;
+  flex-direction: column;
+}
+
 .formulario h3 {
   font-size: 50px;
   margin: 30px;
+}
+
+.formulario label {
+
 }
 
 fieldset{
@@ -356,7 +371,11 @@ fieldset{
 .iconos-contacto  .iconos{
   margin-top: 30px;
   height: 60px;
+  padding-right: 5px;
 }
+
+
+
 
 @media only screen and (max-width: 900px) {
   .perfil-seccion2-derecha{
@@ -561,6 +580,25 @@ fieldset{
 
   .habilidades-p p {
     font-size: 15px;
+  }
+
+  .Inicio {
+    margin-top: 50px;
+  }
+
+  .Menu{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: auto;
+  }
+
+  .contacto-seccion1-derecha-mobil h1{
+    color: white;
+  }
+
+  .formulario h3 {
+    color: black;
   }
 }
 
