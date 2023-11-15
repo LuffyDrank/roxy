@@ -13,7 +13,8 @@
         <div class="Menu" id="menu">
 
           <div class="Menu3">
-            <img class="menu-icono" src="img/svg/menu.svg">
+            <input type="checkbox" id="check">
+            <label for="check"> <img class="menu-icono" src="img/svg/menu.svg"> </label>
           </div>
           
           <div class="Menu1"> 
@@ -32,8 +33,16 @@
       </nav>
     </header>
     <!--encabezado-->
-
-    <section class="Inicio home">
+    <div id="Menu2-B" class="Menu2 Menu2-mobil">
+      <div class="iconos-menu2"> <img src="img/svg/home.svg" > <a href="#Inicio">Inicio</a> </div>
+      <hr>
+      <div class="iconos-menu2"> <img src="img/svg/user.svg"> <a href="#Perfil">Perfil</a> </div>
+      <hr>
+      <div class="iconos-menu2"> <img src="img/svg/search.svg"> <a href="#Areas">Areas</a> </div>
+      <hr>
+      <div class="iconos-menu2"> <img src="img/svg/phone-call.svg"> <a href="#Contacto">Contacto</a> </div>
+    </div>
+    <section id="Inicio" class="Inicio home">
       <div class="texto">
         <h2>
           Soy Rosines veloz, 
@@ -206,6 +215,17 @@
       </div>
     </footer>
 
+    <script>
+      // Get the checkbox and mobile menu elements
+      var checkbox = document.getElementById('check');
+      var mobileMenu = document.getElementById('Menu2-B');
+
+      // Add an event listener to the checkbox for the 'change' event
+      checkbox.addEventListener('change', function() {
+        // If the checkbox is checked, display the mobile menu; otherwise, hide it
+        mobileMenu.style.display = this.checked ? 'block' : 'none';
+      });
+    </script>
 
   </body>
 </html>

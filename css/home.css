@@ -8,7 +8,10 @@
   src: url(../fuentes/Georgia.ttf);
 }
 
-
+hr {
+  border: 1px black solid;
+  width: 100%;
+}
 
 *{
   box-sizing: border-box;
@@ -66,6 +69,7 @@ body{
   flex: 1 1 auto;
   text-decoration: none;
 }
+
 
 .Menu2 a:first-child {
   border-left: none;
@@ -363,6 +367,11 @@ fieldset{
 .menu-icono {
   height: 25px;
   display: none;
+  cursor: pointer;
+}
+
+#check {
+  display: none;
 }
 
 .inicio-imagen{
@@ -408,8 +417,51 @@ fieldset{
     display: block;
   }
 
+  .Menu2 {
+    display: none;
+  }
+
+  
+  
+  .Menu2-mobil {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    width: 90%;
+    height: auto;
+    flex-flow: column;
+    justify-content:start;
+    align-items:start;
+    border-radius: 0px 0px 10px 10px;
+  }
+
+  #check {
+    display: none;
+  }
+
+  #check:checked + #Menu2-B {
+    display: block;
+  }
+
+
+  .Menu2-mobil img {
+    height: 50px;
+    margin-right: 10px;
+  }
+
+  .iconos-menu2{
+    display: flex;
+    margin: 10px;
+  }
+
+  .Menu2-mobil a {
+    border: none;
+    flex: none;
+  }
+
   .Menu{
     justify-content: space-between;
+    height: 50px;
   }
 
   .Menu1 {
@@ -420,9 +472,6 @@ fieldset{
     font-size: 15px;
   }
 
-  .Menu2{
-    display: none;
-  }
 
   .Menu3{
     margin-left: 10px;
@@ -613,4 +662,5 @@ fieldset{
   }
 
 }
+
 
