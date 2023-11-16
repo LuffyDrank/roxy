@@ -13,6 +13,10 @@ hr {
   width: 100%;
 }
 
+textarea {
+  resize: none;
+}
+
 *{
   box-sizing: border-box;
   padding: 0px;
@@ -372,7 +376,7 @@ fieldset{
   cursor: pointer;
 }
 
-#check {
+.check {
   display: none;
 }
 
@@ -440,14 +444,9 @@ fieldset{
     border-radius: 0px 0px 10px 10px;
   }
 
-  #check {
+  .check {
     display: none;
   }
-
-  #check:checked + #Menu2-B {
-    display: block;
-  }
-
 
   .Menu2-mobil img {
     height: 50px;
@@ -487,7 +486,7 @@ fieldset{
     height: 290px;
     margin: 50px 0px 50px 0px;
   }
-
+B
   .Inicio{
     padding-bottom: 300px;
   }
